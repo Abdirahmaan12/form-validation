@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1>login/register</h1>
+        <form class="form" id="form">
+            <div class="form-control">
+                <label for="username">username</label>
+                <input type="text" class="username" id="username">
+                <i class="fa fa-check"></i>
+                <i class="fa fa-close"></i>
+                <small>error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">email</label>
+                <input type="text" class="email" id="email">
+                <i class="fa fa-check"></i>
+                <i class="fa fa-close"></i>
+                <small>error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password">password</label>
+                <input type="password" class="password" id="password">
+                <i class="fa fa-check"></i>
+                <i class="fa fa-close"></i>
+                <small>error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="confirmpassword">confirmpassword</label>
+                <input type="password" class="confirmpassword" id="confirmpassword">
+                <i class="fa fa-check"></i>
+                <i class="fa fa-close"></i>
+                <small>error message</small>
+            </div>
+
+            <button  type="submit"  class="btn">submit</button>
+
+            <script src="main.js"></script>
+        </form>
+    </div>
+</body>
+</html>
